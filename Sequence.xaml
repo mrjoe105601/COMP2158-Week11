@@ -1,0 +1,117 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C4954069CEE_v1_sub_webSummary_Create.Bundle;assembly=C4954069CEE_v1_sub_w.l91jy23KfMN1KN9nqGXZac3" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.C4954069CEE_v1_sub_webSummary_Create.Bundle</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>C4954069CEE_v1_sub_w.l91jy23KfMN1KN9nqGXZac3</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="954,631.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACs1WTW/iSBD9K60+7a6MCcnsSLGUQ2DYCRMSUCAzo41QVNiF3UO72+muJmEi/vuobfOVkKz2slpxALvK5XqvX73imf8lUCa2oxWBUGh49MxHCCbOYCqxCvLobhLwniocbW4882vIkUe8MHohEjQ84J+ELSQs60BVhXVVKhT6KNrYiIKEVjzi4wyZrTKwzGCkmbMY8oCPl4UvYMkIlfKAj7ShgfHviFq+zgycpK8gnc8aoikkPgla8oB3lct3m9sLHnhiNSn7EqnyuPsakvayrs8jMg4DPtRW1D0PjcjBLPkq4Df44ITBZJ1V8tLXMdSpbZ34vE0jDw7N8g2KDnKjgJwBySSo1EGKrKzgSapZowzZI07ZTJv3KTv+jyB+b3Ql5qjINkZoFiLGxtDomZB4AHcZZ8U2vkdATxEaBZIZ7UiolGVC0QGUL6SQiTRrxFBAXB34FnbPXogkQfU+4pcILxAqYffsFVKmkyEYyJE8q76OV8/A0cGx+CLoftGKokecjlxevuElC99wynZiewxswd6KIVAWekpSU3ZWsxeexyQWggTacPStq6j62flw+ueHo4+nnW73ftG6t256v+3hvmMQCMO2U4nE8K14wA5VCeVp68fy+ORydnXdurw+VQ+fv/8N8UnAvqKxQquzVnjkPwHrOEnO4JlCRwZkwIZuKkV8icuxnqM6U05KXkkMLfFoBtKiv7aFVhbfklxFNg/4QHVALcCuE3v2i6gOoT6ZrSxjQeXj9u6Pyasj6KyDrw7g9qZvvR8lfuRSVGiAsBy6ev4MWifJHlTlO9O2+mfU6+uO8+9M/iUZO9DNuvAb1vyW+EpvrmJMzzZOsw88/P8hn6z8lrIEKsbNqFrfTi1QHvFSojzgHa0UxqTNJS55xJ0ogLJG/QXCJHMe8HrCljXOdVsBH0x/YEw1m6/G/IKoqAzD+4u25M3F9y/FT0zWRQ+6QAfiDJO+1nNXlLbm21+t77eNfrRoeoR5fb92r0tc1lt6CPEcUtwFfPJxH3H94spY2GdU5z229ZLdzN0qp62wtUH+npG9z82g8JNUFa3M5hVhg9GYeyCU8Yg3F63mXoF+vRB5xFHxgF/B0xBSHImfyKPjo6OAX4BtG4S5UGknA5V6DmvB9WyppXM70tL5Lm7Qamdi7Cr/d2ejuDE+UVvqeL7n6SA+CRtLEHm5FXwSj/h5j8WgWA5zZLmwBHO0IRtKBIss0W4qkcUZxnM/OaW8bchurd/phCa3DFTCRF5oQ6CICTXTJi8pCtldH8EolmuDk98yosJGzWaiYxtWSg1jnTdhc3ZNTRmapgRCS02xXRkNW+0MT2WjHu2G/23KFddwvp1G2c7vnvvtehzrgq8mq1+NIIu2KAoAAA==" ConnectionId="2362931f-234e-42e1-bf0f-c04954069cee" DisplayName="Web Summary" sap:VirtualizedContainerService.HintSize="450,332" sap2010:WorkflowViewState.IdRef="ConnectorActivity_1" UiPathActivityTypeId="bf4d5ff0-9b68-3384-aee7-6d442dbd034b">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="provider" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">Perplexity</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="query" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">adfasd</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Xminus_signElementsminus_signServiceminus_signProfile" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">high-capacity</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_v1_sub_webSummary" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb:v1_sub_webSummary_Create" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_citations_array" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="s:String[]" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_response" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="x:String" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+  </Sequence>
+</Activity>

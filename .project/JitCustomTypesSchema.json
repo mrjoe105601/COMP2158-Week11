@@ -1,0 +1,118 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "NOjkSMHLbuy0juv9iXglTbq9OacnYZkWsiMaW+I0ozzAcPUIOFctCdSias1f9BGCoo6Jl3BVAmOb5Y7mXnFYeg==",
+        "bundleName": "C4954069CEE_v1_sub_webSummary_Create",
+        "entitiesBundle": {
+          "Types": {
+            "v1_sub_webSummary_Create": {
+              "name": "v1_sub_webSummary_Create",
+              "properties": [
+                {
+                  "name": "response",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"response\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "citations",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"citations\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": null
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C4954069CEE_v1_sub_webSummary_Create",
+        "hash": "Tk9qa1NNSExidXkwanV2OWlYZ2xUYnE5T2Fjbllaa1dzaU1hVytJMG96ekFjUFVJT0ZjdENkU2lhczFmOUJHQ29vNkpsM0JWQW1PYjVZN21YbkZZZWc9PQ",
+        "assemblyName": "C4954069CEE_v1_sub_w.l91jy23KfMN1KN9nqGXZac3"
+      }
+    }
+  ]
+}
